@@ -61,7 +61,7 @@ oop_php/
    - Sesuaikan pengaturan koneksi database
 
 4. **Jalankan aplikasi**
-   - Letakkan folder proyek di dalam direktori web server (htdocs untuk XAMPP)
+   - Letakkan folder proyek di dalam direktori web server (htdocs untuk XAMPP / www untuk laragon)
    - Akses aplikasi melalui `http://localhost/oop_php/public`
 
 ## 🧩 Konsep Implementasi
