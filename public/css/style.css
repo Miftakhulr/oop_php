@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter';
+    line-height: 1.6;
+    color: #263238;
+    background-color: #f5f7fa;
+    padding: 16px;
+  }
+  
+  .konten-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  /* Style kotak */
+  .kotak {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out;
+    padding: 20px;
+    margin-bottom: 24px;
+    overflow: hidden;
+  }
+  
+  .kotak:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Setting tulisan */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.3;
+    color: #263238;
+    margin-bottom: 16px;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    border-bottom: none;
+    position: relative;
+    display: inline-block;
+  }
+  
+  p {
+    margin-bottom: 16px;
+  }
+  
+  /* Link & Tombol */
+  a {
+    text-decoration: none;
+    color: #5c6bc0;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #26418f;
+  }
+  
+  .tombol {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tombol-biru {
+    background-color: #5c6bc0;
+    color: white;
+  }
+  
+  .tombol-biru:hover {
+    background-color: #26418f;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tombol-hijau {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .tombol-hijau:hover {
+    background-color: #087f23;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tombol-merah {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .tombol-merah:hover {
+    background-color: #ba000d;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ikon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    vertical-align: -0.1em;
+  }
+  
+  /* Bagian Header */
+  .header-dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .judul-dashboard {
+    margin-bottom: 0;
+  }
+  
+  /* Style Tabel */
+  .pembungkus-tabel {
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  
+  thead {
+    background-color: rgba(92, 107, 192, 0.08);
+    border-bottom: 2px solid rgba(92, 107, 192, 0.2);
+  }
+  
+  th {
+    text-align: left;
+    padding: 16px;
+    font-weight: 600;
+    color: #26418f;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  td {
+    padding: 16px;
+    border-bottom: 1px solid #e9ecef;
+    vertical-align: middle;
+  }
+  
+  tbody tr {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  tbody tr:hover {
+    background-color: rgba(92, 107, 192, 0.04);
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  /* Label styling */
+  .label {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  
+  .label-cowo {
+    background-color: rgba(92, 107, 192, 0.1);
+    color: #5c6bc0;
+  }
+  
+  .label-cewe {
+    background-color: rgba(244, 143, 177, 0.1);
+    color: #c2185b;
+  }
+  
+  /* Kolom aksi */
+  .kolom-aksi {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+  }
+  
+  /* Form styling */
+  .pembungkus-form {
+    max-width: 600px;
+  }
+  
+  .grup-form {
+    margin-bottom: 16px;
+  }
+  
+  .label-form {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+    color: #263238;
+  }
+  
+  .kontrol-form {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .kontrol-form:focus {
+    outline: none;
+    border-color: #5c6bc0;
+    box-shadow: 0 0 0 3px rgba(92, 107, 192, 0.1);
+  }
+  
+  .pilihan-form {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235c6bc0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px 16px;
+    padding-right: 40px;
+    appearance: none;
+  }
+  
+  .aksi-form {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .header-dashboard {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .pembungkus-tabel {
+      margin: 0 -16px;
+      border-radius: 0;
+    }
+    
+    .kolom-aksi {
+      flex-direction: column;
+    }
+    
+    .tombol {
+      width: 100%;
+    }
+    
+    .aksi-form {
+      flex-direction: column;
+    }
+  }
+  
+  /* Pesan alert */
+  .pesan {
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    border-left: 4px solid transparent;
+  }
+  
+  .pesan-sukses {
+    background-color: rgba(76, 175, 80, 0.08);
+    border-left-color: #4caf50;
+    color: #087f23;
+  }
+  
+  .pesan-error {
+    background-color: rgba(244, 67, 54, 0.08);
+    border-left-color: #f44336;
+    color: #ba000d;
+  }
+  
+  /* Tampilan data kosong */
+  .data-kosong {
+    text-align: center;
+    padding: 32px 0;
+    color: #546e7a;
+  }
+  
+  .data-kosong img {
+    max-width: 200px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+  }
