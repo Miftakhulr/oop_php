@@ -19,7 +19,7 @@ Aplikasi pengelolaan data dosen berbasis web yang dibangun dengan konsep OOP (Ob
 - **Kelas**: C02
 - **Semester**: 6
 - **Mata Kuliah**: Pemrograman Web III
-- **Dosen Pengampu**: Uli Rizky, M.Kom.
+- **Dosen Pengampu**: Uli Rizki, M.Kom.
 
 ## 🏢 Institusi
 
@@ -75,7 +75,7 @@ oop_php/
    ```
 
 2. **Import database**
-   - Buat database baru dengan nama `dosen_db`
+   - Buat database baru dengan nama `dosen`
    - Import file `dosen.sql` ke database tersebut
 
 3. **Konfigurasi koneksi database**
