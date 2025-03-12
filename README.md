@@ -4,6 +4,30 @@ Aplikasi pengelolaan data dosen berbasis web yang dibangun dengan konsep OOP (Ob
 
 ![alt text](https://i.ibb.co.com/PZ8CRnYb/Hasil.png?raw=true)
 
+## 👥 Tim / Kelompok 1
+
+**Ketua:**
+- **Miftakhul Rahman** (2255202048)
+
+**Anggota:**
+- **Dwi Prayitno** (2255202032)
+- **Femas Adi Prakasa** (2255202083)
+- **Rayza Lintang Putri Harjanti** (2255202012)
+
+## 🏫 Informasi Akademik
+
+- **Kelas**: C02
+- **Semester**: 6
+- **Mata Kuliah**: Pemrograman Web III
+- **Dosen Pengampu**: Uli Rizky, M.Kom.
+
+## 🏢 Institusi
+
+**PROGRAM STUDI INFORMATIKA**  
+**FAKULTAS SAINS DAN TEKNOLOGI**  
+**UNIVERSITAS NURUL HUDA**  
+**2025**
+
 
 ## 🌟 Fitur Utama
 
@@ -41,8 +65,6 @@ oop_php/
 - **PHP Native**: Bahasa pemrograman utama
 - **MySQL**: Sistem manajemen database
 - **HTML5 & CSS3**: Untuk struktur dan tampilan frontend
-- **Bootstrap**: Framework CSS untuk tampilan responsif
-- **JavaScript**: Untuk interaksi pengguna
 
 ## 🚀 Cara Instalasi
 
@@ -75,31 +97,6 @@ oop_php/
 - **Model**: Menangani logika bisnis dan interaksi dengan database
 - **View**: Menampilkan data dan antarmuka kepada pengguna
 - **Controller**: Menangani permintaan pengguna dan menghubungkan Model dan View
-
-## 👥 Tim / Kelompok 1
-
-**Ketua:**
-- **Miftakhul Rahman** (2255202048)
-
-**Anggota:**
-- **Dwi Prayitno** (2255202032)
-- **Femas Adi Prakasa** (2255202083)
-- **Rayza Lintang Putri Harjanti** (2255202012)
-
-## 🏫 Informasi Akademik
-
-- **Kelas**: C02
-- **Semester**: 6
-- **Mata Kuliah**: Pemrograman Web III
-- **Dosen Pengampu**: Uli Rizky, M.Kom.
-
-## 🏢 Institusi
-
-**PROGRAM STUDI INFORMATIKA**  
-**FAKULTAS SAINS DAN TEKNOLOGI**  
-**UNIVERSITAS NURUL HUDA**  
-**2025**
-
 
 
 *Dibuat untuk memenuhi tugas Mata Kuliah Pemrograman Web III*
