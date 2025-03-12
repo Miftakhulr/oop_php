@@ -17,7 +17,7 @@ Aplikasi pengelolaan data dosen berbasis web yang dibangun dengan konsep OOP (Ob
 ## 📂 Struktur Proyek
 
 ```
-OOP_PHP/
+oop_php/
 ├── app/
 │   ├── controllers/       # Pengendali untuk menangani request
 │   │   └── DosenController.php
@@ -48,8 +48,8 @@ OOP_PHP/
 
 1. **Clone repositori ini**
    ```bash
-   git clone https://github.com/username/OOP_PHP.git
-   cd oop-php-mvc-dosen
+   git clone https://github.com/Miftakhulr/oop_php.git
+   cd oop_php
    ```
 
 2. **Import database**
@@ -62,7 +62,7 @@ OOP_PHP/
 
 4. **Jalankan aplikasi**
    - Letakkan folder proyek di dalam direktori web server (htdocs untuk XAMPP)
-   - Akses aplikasi melalui `http://localhost/OOP_PHP/public`
+   - Akses aplikasi melalui `http://localhost/oop_php/public`
 
 ## 🧩 Konsep Implementasi
 
